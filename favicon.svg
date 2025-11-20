@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#1B3A6B" rx="80"/>
+  
+  <!-- Decorative border -->
+  <rect x="20" y="20" width="472" height="472" fill="none" stroke="#8B9DC3" stroke-width="4" rx="60"/>
+  
+  <!-- W Letter -->
+  <text x="200" y="360" font-family="Times New Roman, serif" font-size="320" font-weight="bold" font-style="italic" fill="#8B9DC3" text-anchor="middle">
+    W
+    <animate attributeName="opacity" values="0;1;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- L Letter -->
+  <text x="312" y="360" font-family="Times New Roman, serif" font-size="320" font-weight="bold" font-style="italic" fill="#8B9DC3" text-anchor="middle">
+    L
+    <animate attributeName="opacity" values="0;1;1" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </text>
+</svg>
